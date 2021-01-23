@@ -1,0 +1,30 @@
+@media(max-width:900px ){
+	#menu2{
+		display:block;
+	}
+	#menu>ul>li{
+		display:none;
+		width:100%;
+	}
+		#menu>#hrefs{
+		display:none;
+	}
+#menu:hover #menu2{
+		text-align: center;
+	}
+	#menu:hover ul li{
+		position: relative;
+		display: block !important;
+		margin: 10px 0;
+		text-align: center;
+		/*width: 100%;*/
+		padding: 0;
+	}
+}
+@media(max-width: 488px){
+	#lastdiv>form>#lastbuttn{
+		margin-top:15px;
+		width:330px;
+		height:40px;
+	}
+}

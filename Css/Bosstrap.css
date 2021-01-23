@@ -1,0 +1,168 @@
+*{
+	margin:0;
+	padding:0;
+}
+nav.navbar.primary-color.tapancik{
+	background: rgba(54, 54, 57, 0.7) !important;
+}
+.carousel-indicators li {
+  width: 10px !important;
+  height: 10px !important;
+  border-radius: 100%;
+}
+
+.div2{
+	width:100%;
+	min-height:800px;
+	padding:100px;
+	box-sizing:border-box;
+}
+.text{
+	color:#777;
+	max-width:1000px;
+}
+.colorh1{
+	color:black;
+}
+#P1{
+	margin:20px 0 15px 0;
+	color:#777;
+}
+#P2{
+	font-size: 18px;
+}
+.imgphotobord{
+	/*transparent-ը մեր տեքստի գույնի թափանցիկւթյուննա չխառնես սովորական թափանցիկության հետ եսի rgba()-ի են վերջին մասնա 0․7 օրինկ որով մենք թփնցիկւթյուննենք տալիս*/
+	border:10px solid transparent;
+	opacity: 0.7;
+}
+.imgphoto{
+		border-radius:100%;
+}
+.imgphotobord:hover{
+	border: 10px solid lightgray;
+}
+.img1div{
+	display:inline-block;
+}
+#blackdiv{
+	padding:60px;
+	box-sizing:border-box;
+	color: #bdbdbd;
+	width:100%;
+	min-height:854px;
+	background: #2d2d30;
+}
+.Listdiv{
+	max-width:1250px;
+}
+.Listdiv li{
+	box-sizing: border-box;
+	color: #bdbdbd;
+	height:75px;
+}
+.textpos{
+	padding:25px!important;
+	text-align:left;
+}
+.soldid{
+	color:white;
+	width:90px;
+	border-radius:1px;
+	background:#d9534f;
+}
+.badge-primary{
+	background-color: #777 !important;
+}
+.bgwhite1{
+	display:inline-block;
+	margin:20px 10px 0 10px;
+	max-width:400px;
+	height:456px;
+	/*position:relative;*/
+	background: white;
+}
+.imgwi{
+	max-width:100%;
+}
+.Pw{
+	color:#2d2d30;
+	font-size: 21px;
+	margin:15px 0;
+}
+.butt1{
+	transition:.5s;
+	border:none;
+	background: #2d2d30;
+	color:white;
+	width:160px;
+	height:42px;
+}
+.butt1:hover{
+	border:0.5px solid #2d2d30;
+	color:#2d2d30;
+	background: #fff;
+
+}
+#Bgwhitediv{
+	width:100%;
+	min-height:738px;
+	padding:80px 120px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#PC{
+	margin-bottom:100px;
+	color:#2d2d30;
+	font-size: 40px;
+	font-family: sans-serif;
+}
+.bbg {
+	float: right;
+	border:none;
+    width: 112.66px;
+    min-height: 42px;
+    font-size: 14px;
+    background:#2d2d30;
+    color: #f1f1f1;
+    border-radius: 0;
+    transition: .2s;
+    margin-bottom: 10px;
+}
+.bbg:hover{
+	background:#fff;
+	color: #333;
+	border:1px solid #333;
+}
+#comments{
+	resize:none;
+}
+#pos5{
+	color:#2d2d30!important;
+	margin-top:30px;
+}
+.color5{
+	color:#2d2d30!important;
+}
+#bgilast{
+	background-image: url(../Bostimg/map.jpg);
+	width:100%;
+	height:1070px;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.lstdivblack1{
+	/*padding:32px;*/
+	/*box-sizing:border-box;*/
+	width:100%;
+	height:165px;
+	background:#2d2d30;
+}
+#Plast{color:white;margin-top:20px;}
+#LastA{transition:0.5s;color:white;text-decoration:none;}
+#LastA:hover{color:gray;}
+
+
+
+
